@@ -1,4 +1,6 @@
+// var path = require('path');
 var fs = require('fs');
+
 var nodeModules = {};
 fs.readdirSync('./node_modules')
   .filter(x => {
@@ -12,7 +14,7 @@ module.exports = {
   entry: './src/index.ts',
   output: {
     path: __dirname + '/dist',
-    filename: 'index.bundle.js'
+    filename: 'index.js'
   },
   resolve: {
     extensions: ['.webpack.js', '.web.js', '.ts', '.tsx', '.js']

@@ -1,1 +1,1 @@
-export const asd = 50;
+export const asd = 5010;
