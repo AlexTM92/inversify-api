@@ -1,3 +1,5 @@
+import { IEntity } from '../interfaces/IEntity';
+
 export class User {
   constructor(id: number, name: string, email: string) {
     this.id = id;

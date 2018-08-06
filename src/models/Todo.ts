@@ -1,4 +1,6 @@
-export class Todo {
+import { IEntity } from '../interfaces/IEntity';
+
+export class Todo implements IEntity {
   constructor(id: number, title: string, completed: boolean, endDate: Date) {
     this.id = id;
     this.title = title;
