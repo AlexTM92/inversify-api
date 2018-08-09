@@ -8,7 +8,7 @@
     "build": "webpack --mode production",
     "dev": "webpack --mode development --watch",
     "start-ts": "ts-node ./src/index.ts ",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "clean": "rm -r ./dist"
   },
   "author": "",

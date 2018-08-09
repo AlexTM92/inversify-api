@@ -1,7 +1,7 @@
 import { IRepository } from '../interfaces/IRepository';
 import { Todo } from '../models/Todo';
 
-export class UserRepository implements IRepository<Todo> {
+export class TodoRepository implements IRepository<Todo> {
   private todoList: Todo[] = [
     new Todo(1, 'calculate', false, new Date()),
     new Todo(2, 'copy', false, new Date()),
